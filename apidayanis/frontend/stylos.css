@@ -1,0 +1,121 @@
+ body{
+    background-image: url('https://images.unsplash.com/photo-1673526759322-2b43a11d75fe?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/tu/imagen.jpg'); /* Ruta a tu imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.montserrat {
+    font-family: 'Montserrat', sans-serif; 
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c3b4f5;
+    padding: 10px;  
+    z-index: 1000;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+
+.masthead {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px;    
+    color:#c3b4f5;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: gray;
+}
+
+.container {
+    padding: 20px;
+}
+
+.btn-info {
+    background-color: #c3b4f5;  
+    color: white;                
+    border-radius: 8px;          
+    padding: 10px 20px;          
+    font-size: 18px;           
+}
+
+.btn-info:hover {
+    background-color: #815bff;  
+    color: white;                
+}
+.btn-warning {
+    background-color: #815bff;  
+    color: white;                
+    border-radius: 8px;         
+    padding: 10px 20px;          
+    font-size: 18px;             
+}
+
+.btn-warning:hover {
+    background-color: #c3b4f5;  
+    color: white;               
+}
+
+.btn-primary {
+    background-color: #815bff;  
+    color: white; 
+}
+.btn-primary:hover {
+    background-color: #c3b4f5;  
+    color: white; 
+}
+
+.swal2-confirm.swal2-styled {
+    background-color: #c3b4f5 !important;  /* Cambia este color al que desees */
+    color: white !important;  /* Cambia el color del texto */
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+}
+
+.swal2-confirm.swal2-styled:hover {
+    background-color: #815bff !important;  /* Cambia el color al pasar el ratón */
+}
+
+.swal2-cancel.swal2-styled {
+    background-color: #815bff !important;  /* Cambia este color al que desees */
+    color: white !important;  /* Cambia el color del texto */
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+}
+
+.swal2-cancel.swal2-styled:hover {
+    background-color: #c3b4f5 !important;  /* Cambia el color al pasar el ratón */
+}
